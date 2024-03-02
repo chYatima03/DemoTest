@@ -1,1 +1,4 @@
 # DemoTest
+role: Local
+user: Venkat
+password: Venkat123
