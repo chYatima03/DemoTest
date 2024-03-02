@@ -1,0 +1,47 @@
+2024-03-01 13:37:23.131 +07:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-03-01 13:37:23.248 +07:00 [INF] Now listening on: https://localhost:7190
+2024-03-01 13:37:23.249 +07:00 [INF] Now listening on: http://localhost:5137
+2024-03-01 13:37:23.253 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-01 13:37:23.254 +07:00 [INF] Hosting environment: Development
+2024-03-01 13:37:23.254 +07:00 [INF] Content root path: D:\Test_newWork\WebApplication3\WebApplication3
+2024-03-01 13:37:25.013 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger - -
+2024-03-01 13:37:25.242 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger - - - 301 0 - 225.2338ms
+2024-03-01 13:37:25.261 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - -
+2024-03-01 13:37:25.829 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - -
+2024-03-01 13:37:25.843 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - -
+2024-03-01 13:37:25.847 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - -
+2024-03-01 13:37:25.866 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - -
+2024-03-01 13:37:25.866 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/_vs/browserLink - -
+2024-03-01 13:37:25.869 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - - - 200 - text/html;charset=utf-8 607.9571ms
+2024-03-01 13:37:25.915 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 48.4132ms
+2024-03-01 13:37:26.038 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-01 13:37:26.038 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-01 13:37:26.039 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 171.6304ms
+2024-03-01 13:37:26.039 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - - - 200 144929 text/css 209.8879ms
+2024-03-01 13:37:26.039 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 192.4481ms
+2024-03-01 13:37:26.050 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-01 13:37:26.050 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 207.3263ms
+2024-03-01 13:37:26.370 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - -
+2024-03-01 13:37:26.970 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 599.9024ms
+2024-03-01 13:37:33.114 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Demo - -
+2024-03-01 13:37:33.130 +07:00 [INF] Executing endpoint 'WebApplication3.Controllers.DemoController.Index (WebApplication3)'
+2024-03-01 13:37:33.203 +07:00 [INF] Route matched with {action = "Index", controller = "Demo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.DemoController (WebApplication3).
+2024-03-01 13:37:33.215 +07:00 [INF] Log message from Information method
+2024-03-01 13:37:33.215 +07:00 [WRN] Log message from Warning method
+2024-03-01 13:37:33.216 +07:00 [ERR] Log message from Error method
+2024-03-01 13:37:33.216 +07:00 [FTL] Log message from Critical method
+2024-03-01 13:37:33.236 +07:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-03-01 13:37:33.249 +07:00 [INF] Executed action WebApplication3.Controllers.DemoController.Index (WebApplication3) in 39.2871ms
+2024-03-01 13:37:33.250 +07:00 [INF] Executed endpoint 'WebApplication3.Controllers.DemoController.Index (WebApplication3)'
+2024-03-01 13:37:33.250 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Demo - - - 200 0 - 135.9378ms
+2024-03-01 13:37:42.469 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Demo - -
+2024-03-01 13:37:42.471 +07:00 [INF] Executing endpoint 'WebApplication3.Controllers.DemoController.Index (WebApplication3)'
+2024-03-01 13:37:42.472 +07:00 [INF] Route matched with {action = "Index", controller = "Demo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.DemoController (WebApplication3).
+2024-03-01 13:37:42.472 +07:00 [INF] Log message from Information method
+2024-03-01 13:37:42.472 +07:00 [WRN] Log message from Warning method
+2024-03-01 13:37:42.472 +07:00 [ERR] Log message from Error method
+2024-03-01 13:37:42.472 +07:00 [FTL] Log message from Critical method
+2024-03-01 13:37:42.473 +07:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-03-01 13:37:42.473 +07:00 [INF] Executed action WebApplication3.Controllers.DemoController.Index (WebApplication3) in 0.7973ms
+2024-03-01 13:37:42.473 +07:00 [INF] Executed endpoint 'WebApplication3.Controllers.DemoController.Index (WebApplication3)'
+2024-03-01 13:37:42.473 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Demo - - - 200 0 - 3.9389ms

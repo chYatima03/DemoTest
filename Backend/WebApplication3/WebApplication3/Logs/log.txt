@@ -1,0 +1,6 @@
+2024-03-01 13:52:21,444  WARN WebApplication3.Controllers.DemoController.Index [24] - MESSAGE: Log message from Warning method
+ 2024-03-01 13:52:21,457 ERROR WebApplication3.Controllers.DemoController.Index [25] - MESSAGE: Log message from Error method
+ 2024-03-01 13:52:21,463 FATAL WebApplication3.Controllers.DemoController.Index [26] - MESSAGE: Log message from Critical method
+ 2024-03-01 13:52:26,270  INFO WebApplication3.Controllers.StudentController.GetStudentName [34] - MESSAGE: GetStudents method started
+ 2024-03-01 13:52:26,288  WARN Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: No output formatter was found for content types 'text/plain' to write the response.
+ 

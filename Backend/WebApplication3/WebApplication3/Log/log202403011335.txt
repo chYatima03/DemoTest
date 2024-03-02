@@ -1,0 +1,35 @@
+2024-03-01 13:35:30.747 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Demo - -
+2024-03-01 13:35:30.765 +07:00 [INF] Executing endpoint 'WebApplication3.Controllers.DemoController.Index (WebApplication3)'
+2024-03-01 13:35:30.798 +07:00 [INF] Route matched with {action = "Index", controller = "Demo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication3.Controllers.DemoController (WebApplication3).
+2024-03-01 13:35:30.802 +07:00 [INF] Log message from Information method
+2024-03-01 13:35:30.802 +07:00 [WRN] Log message from Warning method
+2024-03-01 13:35:30.802 +07:00 [ERR] Log message from Error method
+2024-03-01 13:35:30.802 +07:00 [FTL] Log message from Critical method
+2024-03-01 13:35:30.814 +07:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-03-01 13:35:30.820 +07:00 [INF] Executed action WebApplication3.Controllers.DemoController.Index (WebApplication3) in 18.0116ms
+2024-03-01 13:35:30.820 +07:00 [INF] Executed endpoint 'WebApplication3.Controllers.DemoController.Index (WebApplication3)'
+2024-03-01 13:35:30.821 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Demo - - - 200 0 - 73.9753ms
+2024-03-01 13:35:39.261 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Student/All - -
+2024-03-01 13:35:39.264 +07:00 [INF] Executing endpoint 'WebApplication3.Controllers.StudentController.GetStudentName (WebApplication3)'
+2024-03-01 13:35:39.268 +07:00 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApplication3.Models.Student]] GetStudentName() on controller WebApplication3.Controllers.StudentController (WebApplication3).
+2024-03-01 13:35:39.270 +07:00 [INF] GetStudents method started
+2024-03-01 13:35:39.293 +07:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2024-03-01 13:35:39.295 +07:00 [INF] Executed action WebApplication3.Controllers.StudentController.GetStudentName (WebApplication3) in 27.1028ms
+2024-03-01 13:35:39.295 +07:00 [INF] Executed endpoint 'WebApplication3.Controllers.StudentController.GetStudentName (WebApplication3)'
+2024-03-01 13:35:39.296 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Student/All - - - 406 0 - 34.2216ms
+2024-03-01 13:35:43.160 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Student/All - -
+2024-03-01 13:35:43.162 +07:00 [INF] Executing endpoint 'WebApplication3.Controllers.StudentController.GetStudentName (WebApplication3)'
+2024-03-01 13:35:43.162 +07:00 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApplication3.Models.Student]] GetStudentName() on controller WebApplication3.Controllers.StudentController (WebApplication3).
+2024-03-01 13:35:43.162 +07:00 [INF] GetStudents method started
+2024-03-01 13:35:43.163 +07:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2024-03-01 13:35:43.163 +07:00 [INF] Executed action WebApplication3.Controllers.StudentController.GetStudentName (WebApplication3) in 0.8423ms
+2024-03-01 13:35:43.163 +07:00 [INF] Executed endpoint 'WebApplication3.Controllers.StudentController.GetStudentName (WebApplication3)'
+2024-03-01 13:35:43.163 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Student/All - - - 406 0 - 3.1541ms
+2024-03-01 13:35:50.702 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Student/All - -
+2024-03-01 13:35:50.703 +07:00 [INF] Executing endpoint 'WebApplication3.Controllers.StudentController.GetStudentName (WebApplication3)'
+2024-03-01 13:35:50.703 +07:00 [INF] Route matched with {action = "GetStudentName", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApplication3.Models.Student]] GetStudentName() on controller WebApplication3.Controllers.StudentController (WebApplication3).
+2024-03-01 13:35:50.704 +07:00 [INF] GetStudents method started
+2024-03-01 13:35:50.704 +07:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2024-03-01 13:35:50.704 +07:00 [INF] Executed action WebApplication3.Controllers.StudentController.GetStudentName (WebApplication3) in 0.3947ms
+2024-03-01 13:35:50.704 +07:00 [INF] Executed endpoint 'WebApplication3.Controllers.StudentController.GetStudentName (WebApplication3)'
+2024-03-01 13:35:50.704 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Student/All - - - 406 0 - 1.7401ms
